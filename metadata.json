@@ -1,0 +1,46 @@
+{
+  "best_model": "Random Forest",
+  "feature_names": [
+    "temperature_c",
+    "vibration_rms",
+    "vibration_peak",
+    "current_draw_a",
+    "current_imbalance",
+    "pressure_bar",
+    "rpm",
+    "bearing_temp_c",
+    "power_factor"
+  ],
+  "opt_threshold": 0.5186,
+  "roc_auc": 0.954,
+  "f1": 0.8487,
+  "n_machines": 5,
+  "n_records": 43800,
+  "failure_rate_pct": 2.39,
+  "sensors_used": [
+    "temperature_c",
+    "vibration_rms",
+    "vibration_peak",
+    "current_draw_a",
+    "current_imbalance",
+    "pressure_bar",
+    "rpm",
+    "bearing_temp_c",
+    "power_factor"
+  ],
+  "note": "ROC-AUC from 5-fold stratified cross-validation on held-out test set",
+  "all_models": {
+    "Logistic Regression": {
+      "roc": 0.961,
+      "f1": 0.4321
+    },
+    "Random Forest": {
+      "roc": 0.954,
+      "f1": 0.8487
+    },
+    "Gradient Boosting": {
+      "roc": 0.992,
+      "f1": 0.5957
+    }
+  }
+}
