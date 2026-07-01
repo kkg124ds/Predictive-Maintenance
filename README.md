@@ -1,2 +1,2 @@
-# Predictive-Maintenance-
+# Predictive-Maintenance
 Industrial IoT Fault Detection
